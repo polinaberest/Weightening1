@@ -15,8 +15,6 @@
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -25,7 +23,31 @@
                 <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="HelloText" Text="Оберіть продукт для зважування:"  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="10" Padding="40,10,40,15" FontSize="38" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E" Background="#FFF7F7F7"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="HelloText" Text="Оберіть продукт для зважування:"  HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="10" Padding="40,10,40,15" FontSize="38" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E" Background="#FFF7F7F7"/>
+            <materialDesign:Card Padding="5" Margin="10"  Grid.Row="1" Grid.Column="0">
+                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="5" Margin="10"  Grid.Row="2" Grid.Column="0">
+                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="5" Margin="10"  Grid.Row="3" Grid.Column="0">
+                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="5" Margin="10"  Grid.Row="1" Grid.Column="1">
+                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="5" Margin="10"  Grid.Row="2" Grid.Column="1">
+                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="5" Margin="10"  Grid.Row="3" Grid.Column="1">
+                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="5" Margin="10"  Grid.Row="1" Grid.Column="2">
+                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="5" Margin="10"  Grid.Row="2" Grid.Column="2">
+                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            </materialDesign:Card>
         </Grid>
     </ScrollViewer>
 </Window>
