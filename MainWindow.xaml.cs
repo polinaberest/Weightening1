@@ -25,7 +25,8 @@ namespace Weightening1
             InitializeComponent();
         }
 
-        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+
+        private void Card_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Window1 w = new Window1();
             w.Show();

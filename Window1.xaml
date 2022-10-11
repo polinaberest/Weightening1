@@ -30,10 +30,10 @@
                         <RowDefinition Height="1*"/>
                         <RowDefinition Height="1*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="Продукт: ГРЕЧКА"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="5" Padding="90,10,90,20" FontSize="42" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E"  Background="White"/>
-                    <TextBlock Grid.Row="1" Text="ВАГА: 1.44 кг"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Padding="90,10,90,20" FontSize="42" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E"  Background="White"/>
-                    <TextBlock Grid.Row="2" Text="ВАРТІСТЬ (до сплати): 115.20 грн"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Padding="90,10,90,20" FontSize="42" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E"  Background="#FFD0FFF5"/>
-                    <TextBlock Grid.Row="3" Text="* Ціна: 80 грн/кг"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Padding="90,10,90,20" FontSize="35" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E"  Background="White"/>
+                    <TextBlock Grid.Row="0" Text="Продукт: ГРЕЧКА"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="5" Padding="10,10,90,20" FontSize="42" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E"  Background="White"/>
+                    <TextBlock Grid.Row="1" Text="ВАГА: 1.44 кг"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Padding="10,10,90,20" FontSize="42" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E"  Background="White"/>
+                    <TextBlock Grid.Row="2" Text="ВАРТІСТЬ (до сплати): 115.20 грн"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Padding="10,10,90,20" FontSize="42" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E"  Background="#FFD0FFF5"/>
+                    <TextBlock Grid.Row="3" Text="* Ціна: 80 грн/кг"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Padding="10,10,90,20" FontSize="35" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E"  Background="White"/>
 
                 </Grid>
             </materialDesign:Card>
