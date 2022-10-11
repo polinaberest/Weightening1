@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace Weightening1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page1 : Page
     {
-        public MainWindow()
+        public Page1()
         {
             InitializeComponent();
-        }
-
-        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            /*Window1 w = new Window1();
-            w.Show();
-            this.Close()*/
         }
     }
 }

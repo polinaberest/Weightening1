@@ -26,7 +26,7 @@
             <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="HelloText" Text="Оберіть продукт для зважування:"  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="5" Padding="40,5,40,5" FontSize="38" OpacityMask="Black" Foreground="#FF00345E" Background="#FFE6E6E6"/>
             <materialDesign:Card Padding="7" Margin="10"  Grid.Row="1" Grid.Column="0">
                 <Grid>
-                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold" MouseDown="TextBlock_MouseDown">ГРЕЧКА</TextBlock>
                     <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
                     <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 </Grid>
