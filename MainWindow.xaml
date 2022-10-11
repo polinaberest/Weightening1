@@ -25,7 +25,7 @@
                 <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="HelloText" Text="Оберіть продукт для зважування:"  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="10" Padding="40,10,40,15" FontSize="38" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E" Background="White"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="HelloText" Text="Оберіть продукт для зважування:"  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="10" Padding="40,10,40,15" FontSize="38" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E" Background="#FFF7F7F7"/>
         </Grid>
     </ScrollViewer>
 </Window>
