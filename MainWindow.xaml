@@ -22,10 +22,14 @@
                 <ColumnDefinition Width="3*"/>
                 <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
-
-            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="HelloText" Text="Оберіть продукт для зважування:"  HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="10" Padding="40,10,40,15" FontSize="38" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E" Background="#FFF7F7F7"/>
-            <materialDesign:Card Padding="5" Margin="10"  Grid.Row="1" Grid.Column="0">
-                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="Weight" Text="ВАГА: 1.44 кг"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5" Padding="90,10,90,20" FontSize="42" FontWeight="Bold" OpacityMask="Black" Foreground="#FF00345E"  Background="White"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="HelloText" Text="Оберіть продукт для зважування:"  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="5" Padding="40,5,40,5" FontSize="38" OpacityMask="Black" Foreground="#FF00345E" Background="#FFE6E6E6"/>
+            <materialDesign:Card Padding="7" Margin="10"  Grid.Row="1" Grid.Column="0">
+                <Grid>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
+                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="2" Grid.Column="0">
                 <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>

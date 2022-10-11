@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="grechka.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="grechka.PNG" />
   </ItemGroup>
 
 </Project>
