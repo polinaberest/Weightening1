@@ -22,6 +22,13 @@ namespace Weightening1
         public Window1()
         {
             InitializeComponent();
+
+            System.Threading.Thread.Sleep(10000);
+            this.Close();
+
+            MainWindow main = new MainWindow();
+            
+            main.Show();
         }
     }
 }

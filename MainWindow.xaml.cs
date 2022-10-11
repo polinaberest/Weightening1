@@ -27,9 +27,9 @@ namespace Weightening1
 
         private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            /*Window1 w = new Window1();
+            Window1 w = new Window1();
             w.Show();
-            this.Close()*/
+            this.Close();
         }
     }
 }
