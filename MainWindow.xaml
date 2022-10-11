@@ -32,25 +32,53 @@
                 </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="2" Grid.Column="0">
-                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+                <Grid>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">БОРОШНО</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">30 грн/кг</TextBlock>
+                    <Image Source="/muka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="3" Grid.Column="0">
-                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+                <Grid>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ЦУКОР</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">34 грн/кг</TextBlock>
+                    <Image Source="/sahar.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="1" Grid.Column="1">
-                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+                <Grid>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
+                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="2" Grid.Column="1">
-                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+                <Grid>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
+                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="3" Grid.Column="1">
-                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+                <Grid>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
+                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="1" Grid.Column="2">
-                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+                <Grid>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
+                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="2" Grid.Column="2">
-                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+                <Grid>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
+                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                </Grid>
             </materialDesign:Card>
         </Grid>
     </ScrollViewer>

@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <None Remove="grechka.PNG" />
+    <None Remove="muka.PNG" />
+    <None Remove="sahar.PNG" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +19,8 @@
 
   <ItemGroup>
     <Resource Include="grechka.PNG" />
+    <Resource Include="muka.PNG" />
+    <Resource Include="sahar.PNG" />
   </ItemGroup>
 
 </Project>
