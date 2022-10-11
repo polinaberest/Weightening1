@@ -8,9 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="americano.PNG" />
     <None Remove="grechka.PNG" />
+    <None Remove="macaroni.PNG" />
+    <None Remove="maria.PNG" />
     <None Remove="muka.PNG" />
+    <None Remove="ovs.PNG" />
     <None Remove="sahar.PNG" />
+    <None Remove="salt.PNG" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,9 +23,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="americano.PNG" />
     <Resource Include="grechka.PNG" />
+    <Resource Include="macaroni.PNG" />
+    <Resource Include="maria.PNG" />
     <Resource Include="muka.PNG" />
+    <Resource Include="ovs.PNG" />
     <Resource Include="sahar.PNG" />
+    <Resource Include="salt.PNG" />
   </ItemGroup>
 
 </Project>

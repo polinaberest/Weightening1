@@ -47,37 +47,41 @@
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="1" Grid.Column="1">
                 <Grid>
-                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
-                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
-                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">СІЛЬ</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">70 грн/кг</TextBlock>
+                    <Image Source="/salt.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="2" Grid.Column="1">
                 <Grid>
-                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
-                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
-                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">МАКАРОНИ</TextBlock>
+                    <TextBlock Padding="40 20" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">-РІЖКИ</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">83 грн/кг</TextBlock>
+                    <Image Source="/macaroni.PNG" Width="200" Height="86" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="3" Grid.Column="1">
                 <Grid>
-                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
-                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
-                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ПЕЧИВО</TextBlock>
+                    <TextBlock Padding="40 20" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">МАРІЯ</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">120 грн/кг</TextBlock>
+                    <Image Source="/maria.PNG" Width="150" Height="90" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="1" Grid.Column="2">
                 <Grid>
-                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
-                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
-                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ПЕЧИВО</TextBlock>
+                    <TextBlock Padding="40 20" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">АМЕРИКАНО</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">180 грн/кг</TextBlock>
+                    <Image Source="/americano.PNG" Width="190" Height="87" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 </Grid>
             </materialDesign:Card>
             <materialDesign:Card Padding="5" Margin="10"  Grid.Row="2" Grid.Column="2">
                 <Grid>
-                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ГРЕЧКА</TextBlock>
-                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">80 грн/кг</TextBlock>
-                    <Image Source="/grechka.PNG" Width="200" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <TextBlock Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ПЛАСТІВЦІ</TextBlock>
+                    <TextBlock Padding="40 20" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">ВІВСЯНІ</TextBlock>
+                    <TextBlock Foreground="#FF00345E" HorizontalAlignment="Right" Padding="40 0" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="25" FontWeight="Bold">90 грн/кг</TextBlock>
+                    <Image Source="/ovs.PNG" Width="150" Height="88" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 </Grid>
             </materialDesign:Card>
         </Grid>
